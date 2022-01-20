@@ -1,23 +1,50 @@
 <html>
     <head>
-        <title>Web Page</title>
+        <title>Restaurant Menu</title>
+        <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
-        <h1><b>DAY 2 ASSIGNMENT</b></h1>
-        <p>
-            The below form will contains Username, Password, Date of Birth, Email and submit options.
-        </p>
-        <h2>FORM</h2>
-        <form action="">
-            Username: <input type="text" placeholder="Enter your name" maxlength="10" size="15"><br><br>
-            Password: <input type="password" placeholder="Enter your Password" maxlength="10" size="15"><br><br>
-            <label for="dob">Date of Birth:</label>
-            <input type="date" name="date" id="dob"><br><br>
-            Email : <input type="email" placeholder="Enter your Email" size="15"><br><br>
-            submit: <input type="submit" value="send">
-        </form>
-        <p>
-            <h2><b>The Assignment for Day2 in LetsUpgrade has done successfully</b></h2>
-        </p>
+        <div class="main">
+            <h1>List of Items</h1><br>
+        <table border="5" >
+            <tr>
+                <th width="100">Dish Name</th>
+                <th width="150">Type</th>
+                <th width="50">price</th>
+                <th width="100">Image</th>
+                <th width="50">Ratings</th>
+            </tr>
+            <tr>
+                <td> Briyani</td>
+                <td>Spicy</td>
+                <td>200</td>
+                <td><img src="images/Briyani.jpg" title="Briyani"></td>
+                <td>4.9</td>
+            </tr>
+            <tr>
+                <td>Halwo</td>
+                <td>Sweet</td>
+                <td>150</td>
+                <td><img src="images/Halwa.jpg" title="Carrot Halwo"></td>
+                <td>4.5</td>
+            </tr>
+            <tr>
+                <td>Pav Bhaji</td>
+                <td>Mixed curry of onion, capsicum, peas, cauliflower potatoes</td>
+                <td>190</td>
+                <td><img src="images/PavBhaji.jpg" title="Pav Bhaji"></td>
+                <td>4.6</td>
+            </tr>
+            <tr>
+                <td>Idli</td>
+                <td>Steamed cake of fermented rice and pulse flour. Rice, urad dal</td>
+                <td>50</td>
+                <td><img src="images/IdliSambar.jpg" title="Idli"></td>
+                <td>4.8</td>
+            </tr>
+        </table>
+        </div>
+        
+        
     </body>
 </html>
