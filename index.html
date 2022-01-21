@@ -1,50 +1,24 @@
 <html>
     <head>
-        <title>Restaurant Menu</title>
-        <link rel="stylesheet" href="style/style.css">
+        <title>Register form</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="main">
-            <h1>List of Items</h1><br>
-        <table border="5" >
-            <tr>
-                <th width="100">Dish Name</th>
-                <th width="150">Type</th>
-                <th width="50">price</th>
-                <th width="100">Image</th>
-                <th width="50">Ratings</th>
-            </tr>
-            <tr>
-                <td> Briyani</td>
-                <td>Spicy</td>
-                <td>200</td>
-                <td><img src="images/Briyani.jpg" title="Briyani"></td>
-                <td>4.9</td>
-            </tr>
-            <tr>
-                <td>Halwo</td>
-                <td>Sweet</td>
-                <td>150</td>
-                <td><img src="images/Halwa.jpg" title="Carrot Halwo"></td>
-                <td>4.5</td>
-            </tr>
-            <tr>
-                <td>Pav Bhaji</td>
-                <td>Mixed curry of onion, capsicum, peas, cauliflower potatoes</td>
-                <td>190</td>
-                <td><img src="images/PavBhaji.jpg" title="Pav Bhaji"></td>
-                <td>4.6</td>
-            </tr>
-            <tr>
-                <td>Idli</td>
-                <td>Steamed cake of fermented rice and pulse flour. Rice, urad dal</td>
-                <td>50</td>
-                <td><img src="images/IdliSambar.jpg" title="Idli"></td>
-                <td>4.8</td>
-            </tr>
-        </table>
-        </div>
-        
-        
+        <form action="">
+            <div class="para">
+                <h1>Register</h1>
+                <p>Fill the details to get further information about our courses</p>
+                <hr>
+                <label for="fn">First Name</label><br>
+                <input type="text" id="fn" placeholder="Enter your Name"><br><br>
+                <label for="el">Email</label><br>
+                <input type="text" id="el" placeholder="Enter your Email"><br><br>
+                <label for="Pd">Password</label><br>
+                <input type="Password" id="Pd" placeholder="Enter your Password"><br><br>
+                <label for="RPd">Re Enter Password</label> <br>
+                <input type="Password" id="RPd" placeholder="Enter Confirm Password"><br><br><hr>
+                <button type="Submit" class="Register">Register</button>
+            </div>
+        </form>
     </body>
 </html>
